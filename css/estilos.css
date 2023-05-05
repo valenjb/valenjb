@@ -1,0 +1,120 @@
+body{
+    margin: 25px;
+    background-color:bisque ;
+    font-family: 'Arvo', serif;
+}
+
+
+h1 {
+    background-color: orange;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+#ubi {
+    color: green
+}
+
+
+h3 {
+    color: red;
+}
+
+.container-fluid{
+    background-color: aqua;
+}
+
+#milagod{
+    border-radius: 80% ;
+}
+
+.Encuesta {
+    color:blue;
+
+}
+
+form {
+    margin: 25px;
+    border: 10px solid red;
+    padding: 15px;
+    text-align: left;
+}
+
+span {
+    color: crimson;
+    font-size: 25px;
+}
+
+form { 
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.memegenerator.es/imagenes/memes/full/32/43/32430383.jpg);
+    background-color: lightgray;
+}
+
+#titgurm {
+    margin: 45px;
+}
+
+.gourmet {
+    box-shadow: 30px 30px  70px rgb(39, 39, 39);
+    border-radius: 20% ;
+}
+
+#columnas{
+    columns: 3;
+    column-gap: 40px;
+    column-rule: 10px double red;
+}    
+
+@media (max-width:600px) and (orientation: landscape) {h1{color:red;}}  
+
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+
+a:link {
+    color:cyan;
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: yellowgreen
+}
+
+
+/* estilos para los links (va en ese orden)
+
+:link       -->  aplica estilos a los links q no fueron visitados
+:visited    -->  aplica estilos a los links q ya fueron visitados
+:hover      -->  se presenta en tolos los elementos donde el usuario ponga el mouse sobre un elemente
+:active     -->  elemento activado por el usuario, desde q presiona el boton hasta q lo suelta.
+
+*/
+
+/* si quiero cambiar un item especofico q se repite, le pongo id="" y en el css le pongo un #(el nombre) 
+    
+       Cuando quiero cambiar distintas etiquetas pero al mismo tiempo se pueden agrupar con el agregado class=""  en las etiquetas que quiero agrupar, y en el css se pone  ."(nombre de la clase)"
+    */
+
+/* cuando quiero cambiar la FUENTE voy a "google fonts" 
+    para el pack de iconos la web es "Font awesome"
+    */
+
+/* @media mediatype operador-lógico (condiciones) 
+
+     ej: @media (max width:600px) and (orientacion: landscape) { h1{color:red} }
+*/
